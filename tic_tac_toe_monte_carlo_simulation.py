@@ -48,11 +48,10 @@ def mc_update_scores(scores,board,player):
 
     other_player=provided.switch_player(player)
 
-    #find all the squares with machine player and user and 0's and form a list
-    mach_player_lst=[] #list of co-ord of machine player
-    other_player_lst=[] #list of co-ord of other player
+    mach_player_lst=[]
+    other_player_lst=[]
     board_dim=board.get_dim()
-    #create list that contain co-ords of machine player
+
     for row in range(board_dim):
         for col in range(board_dim):
             if board.square(row,col)==player:
@@ -62,7 +61,6 @@ def mc_update_scores(scores,board,player):
                 co_ord=(row,col)
                 other_player_lst.append(co_ord)
 
-    #if machine player won then update score grid acccordingly
     if board.check_win()==player:
         for ind_1 in range(len(mach_player_lst)):
                 temp_list=list(mach_player_lst[ind_1])
@@ -88,7 +86,6 @@ def get_best_move(board, scores):
 
     '''
 
-    #assuming the scores grid already contains the scores and we just need to match the indices
     lst_empty_sq=board.get_empty_squares()
 
     if len(lst_empty_sq)==0:
