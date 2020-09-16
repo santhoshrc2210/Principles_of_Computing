@@ -154,7 +154,7 @@ class Apocalypse(poc_grid.Grid):
         are allowed
         """
         z_list=self._zombie_list
-        print z_list
+        #print z_list
         idx_z_lst=0
         for zombie in z_list:
             neighbors=self.four_neighbors(zombie[0],zombie[1])
@@ -167,8 +167,8 @@ class Apocalypse(poc_grid.Grid):
                         distance_list.append(human_distance_field[neighbor[0]][neighbor[1]])
                     else:
                         distance_list.append(self._grid_width * self._grid_height)
-                print neighbors
-                print distance_list
+                #print neighbors
+                #print distance_list
                 min_dist=min(distance_list)
                 idx=distance_list.index(min_dist)
                 self._zombie_list[idx_z_lst]= neighbors[idx]
