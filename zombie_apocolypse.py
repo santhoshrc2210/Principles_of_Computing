@@ -172,7 +172,7 @@ class Apocalypse(poc_grid.Grid):
                 min_dist=min(distance_list)
                 idx=distance_list.index(min_dist)
                 self._zombie_list[idx_z_lst]= neighbors[idx]
-                print self._zombie_list
+                #print self._zombie_list
                 idx_z_lst+=1
 
 # Start up gui for simulation - You will need to write some code above
