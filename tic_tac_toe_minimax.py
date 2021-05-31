@@ -1,6 +1,7 @@
 """
 Mini-max Tic-Tac-Toe Player
 """
+#scoring part cpd
 #https://py2.codeskulptor.org/#user48_MJXxItTKOi_15.py
 import poc_ttt_gui
 import poc_ttt_provided as provided
