@@ -1,4 +1,4 @@
-https://py2.codeskulptor.org/#user48_qMByWEBhas_6.py
+#https://py2.codeskulptor.org/#user48_qMByWEBhas_6.py
 #passed owltest but has some bugs need to work on it some more
 """
 Loyd's Fifteen puzzle - solver and visualizer
@@ -483,29 +483,7 @@ class Puzzle:
     
 # Start interactive simulation
 #poc_fifteen_gui.FifteenGUI(Puzzle(4, 4)) 
-#did not pass p1
-#p1 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 3, [[1, 8, 2], [3, 4, 5], [6, 7, 0]]))
-#p6 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 3, [[8, 7, 6], [5, 4, 3], [2, 1, 0]]))
-#p7 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 3, [[3, 2, 1], [6, 5, 4], [7, 0, 8]]))
-#did not pass p2
-#p2 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 4, [[4, 3, 1, 6], [5, 8, 2, 7], [0, 9, 10, 11], [12, 13, 14, 15]]))
-#p3 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 4, [[4, 1, 3, 13], [5, 10, 2, 7], [8, 12, 6, 11], [9, 0, 14, 15]]))
-#did not pass pcol0
-#pcol0 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 4, [[4, 1, 3, 12], [5, 10, 2, 7], [8, 9, 6, 11], [0, 13, 14, 15]]))
-#didnot pass
-#p4 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 2, [[2, 1], [3, 4], [0, 5]]))
-#p8 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 5, [[12, 11, 10, 9, 8], [7, 6, 5, 4, 3], [2, 1, 0, 13, 14], [15, 16, 17, 18, 19]]))
-#p5 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 4, [[4, 13, 1, 3], [5, 10, 2, 7], [8, 12, 6, 11], [9, 0, 14, 15]]))
-#p9 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 3, [[3, 2, 1], [6, 5, 4], [0, 7, 8]]))
-#didnot pass
-#p10 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 4, [[4, 2, 1, 3], [5, 6, 0, 7], [8, 9, 10, 11], [12, 13, 14, 15]]))
-#didnot pass
-#p12 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 3, [[4, 1, 0], [2, 3, 5], [6, 7, 8]]))
-#didnot pass
-#p13 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 5, [[7, 6, 5, 3, 2], [9, 1, 4, 8, 0], [10, 11, 12, 13, 14], [15, 16, 17, 18, 19]]))
-#p14 = poc_fifteen_gui.FifteenGUI(Puzzle(3, 3, [[2, 5, 4], [1, 3, 0], [6, 7, 8]]))
-#didnot pass
-#p15 = poc_fifteen_gui.FifteenGUI(Puzzle(4, 5, [[8, 2, 10, 9, 1], [7, 6, 5, 4, 3], [0, 11, 12, 13, 14], [15, 16, 17, 18, 19]]))
+
 
 
 
