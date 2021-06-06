@@ -1,5 +1,5 @@
 #https://py2.codeskulptor.org/#user48_qMByWEBhas_6.py
-#passed owltest but has some bugs need to work on it some more
+#passed owltest and mostly works but has some bugs need to work on it some more
 """
 Loyd's Fifteen puzzle - solver and visualizer
 Note that solved configuration has the blank (zero) tile in upper left
